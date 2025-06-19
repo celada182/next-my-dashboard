@@ -1,6 +1,7 @@
-export { Sidebar } from "./Sidebar";
+export { SimpleWidget } from "./Dashboard/SimpleWidget";
+export { WidgetsGrid } from "./Dashboard/WidgetsGrid";
+export { Sidebar } from "./Sidebar/Sidebar";
 
 // Client Components
-export { SidebarMenuItem } from './SidebarMenuItem';
-export { Counter } from './Counter';
+export { Counter } from "./Counter";
 
