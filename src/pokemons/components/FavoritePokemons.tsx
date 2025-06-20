@@ -1,6 +1,5 @@
 "use client";
 import { useAppSelector } from "@/store";
-import { useEffect, useState } from "react";
 import { IoHeartOutline } from "react-icons/io5";
 import { PokemonGrid } from "./PokemonGrid";
 
