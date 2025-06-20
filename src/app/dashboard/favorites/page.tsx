@@ -1,4 +1,4 @@
-import { PokemonGrid } from "@/pokemons";
+import { FavoritePokemons } from "@/pokemons";
 
 export default async function FavoritesPage() {
   return (
@@ -7,7 +7,7 @@ export default async function FavoritesPage() {
         Pokemon Favorites <small>Global State</small>
       </span>
       <div className="flex flex-wrap gap-10 items-center justify-center">
-        <PokemonGrid pokemons={[]}></PokemonGrid>
+        <FavoritePokemons></FavoritePokemons>
       </div>
     </div>
   );

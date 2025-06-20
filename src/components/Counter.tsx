@@ -16,7 +16,7 @@ const getApiCounter = async (): Promise<CounterResponse> => {
   return data;
 };
 
-export const Counter = ({ value = 0 }: Props) => {
+export const Counter = ({}: Props) => {
   //const [count, setCount] = useState(0);
 
   const count = useAppSelector((state) => state.counter.count);
